@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_94128_snow_incid.TestDemoUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TestDemoUtils</name>
+        <script><![CDATA[var TestDemoUtils = Class.create();
+TestDemoUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	insertIncData: function(requestData){
+		
+		gs.info('***********TestDemoUtils');
+		
+		var stgRec = new GlideRecord('x_94128_snow_incid_test_inc_integration');
+		stgRec.initialize();
+		stgRec.u_short_description = requestData['short_description'];
+		stgRec.u_description = requestData['description'];
+		stgRec.u_impact = requestData['impact'];
+		stgRec.u_urgency = requestData['urgency'];
+		stgRec.u_correlation_id = requestData['correlation_id'];
+		
+		stgRec.insert();
+		
+		
+		
+		
+		
+		
+		
+		
+	},
+	
+	
+	
+
+    type: 'TestDemoUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 12:20:31</sys_created_on>
+        <sys_id>70849f422f715110b0a5bed72799b68c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TestDemoUtils</sys_name>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name>sys_script_include_70849f422f715110b0a5bed72799b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 13:34:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

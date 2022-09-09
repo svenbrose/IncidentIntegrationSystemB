@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>creatRecord</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var requestBody = request.body;
+    var requestData = requestBody.data;
+    var requestObj;
+	
+
+    if (requestData instanceof Array) {
+        for (requestObj in requestData) {
+
+			
+			
+           new TestDemoUtils().insertIncData(requestData[requestObj]);
+
+        }
+
+
+    } else {
+
+        new TestDemoUtils().insertIncData(requestData);
+
+
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_94128_snow_incid/demo_scripted</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 12:17:45</sys_created_on>
+        <sys_id>8492d70a2f715110b0a5bed72799b683</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>creatRecord</sys_name>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name>sys_ws_operation_8492d70a2f715110b0a5bed72799b683</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 13:27:25</sys_updated_on>
+        <web_service_definition display_value="demo scripted">5262170a2f715110b0a5bed72799b6ce</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

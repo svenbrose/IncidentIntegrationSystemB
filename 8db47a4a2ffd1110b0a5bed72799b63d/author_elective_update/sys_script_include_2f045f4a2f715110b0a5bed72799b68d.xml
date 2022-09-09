@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_94128_snow_incid.TestDemoUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TestDemoUtils</name>
+        <script><![CDATA[var TestDemoUtils = Class.create();
+TestDemoUtils.prototype = {
+    initialize: function() {
+    },
+
+    type: 'TestDemoUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 12:18:38</sys_created_on>
+        <sys_id>2f045f4a2f715110b0a5bed72799b68d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TestDemoUtils</sys_name>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name>sys_script_include_2f045f4a2f715110b0a5bed72799b68d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 12:19:46</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</application>
+        <file_path/>
+        <instance_id>e4485e03dbbc18d09a4dcac5059619b8</instance_id>
+        <instance_name>dev104457</instance_name>
+        <name>sys_script_include_2f045f4a2f715110b0a5bed72799b68d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_94128_snow_incid.TestDemoUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TestDemoUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TestDemoUtils = Class.create();
+TestDemoUtils.prototype = {
+    initialize: function() {
+    },
+
+    type: 'TestDemoUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-09 12:18:38&lt;/sys_created_on&gt;&lt;sys_id&gt;2f045f4a2f715110b0a5bed72799b68d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;TestDemoUtils&lt;/sys_name&gt;&lt;sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid"&gt;8db47a4a2ffd1110b0a5bed72799b63d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="SNOW Incident Interface "&gt;8db47a4a2ffd1110b0a5bed72799b63d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2f045f4a2f715110b0a5bed72799b68d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-09 12:19:46&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>260796773</payload_hash>
+        <record_name>TestDemoUtils</record_name>
+        <reverted_from/>
+        <source>603187462f315110b0a5bed72799b6a9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 12:19:46</sys_created_on>
+        <sys_id>df5413062f715110b0a5bed72799b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18322311a780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 12:19:46</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>97541306da715110b7aa439326a5c6cd</update_guid>
+        <update_guid_history>97541306da715110b7aa439326a5c6cd:260796773,26149f4a39715110b6f780934f7d8127:-722151880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 12:20:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>01d41a7d2d924b2e80104adcf7685924</sys_id>
+        <sys_metadata>2f045f4a2f715110b0a5bed72799b68d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestDemoUtils</sys_name>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_scope_delete display_value="">944489324cb547888e521606a19a3a40</sys_scope_delete>
+        <sys_update_name>sys_script_include_2f045f4a2f715110b0a5bed72799b68d</sys_update_name>
+        <sys_update_version display_value="sys_script_include_2f045f4a2f715110b0a5bed72799b68d">df5413062f715110b0a5bed72799b6cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 12:20:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

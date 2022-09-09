@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_short_descripton" label="Short Descripton" language="en" table="x_94128_snow_incid_test_inc_integration">
+    <sys_documentation element="u_short_description" label="Short Description" language="en" table="x_94128_snow_incid_test_inc_integration">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_short_descripton</element>
+            <element>u_short_description</element>
             <help/>
             <hint/>
-            <label>Short Descripton</label>
+            <label>Short Description</label>
             <language>en</language>
             <name>x_94128_snow_incid_test_inc_integration</name>
-            <plural>Short Descriptons</plural>
+            <plural>Short Descriptions</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-09 11:07:24</sys_created_on>
-            <sys_id>8bc3074a2f315110b0a5bed72799b603</sys_id>
+            <sys_created_on>2022-09-09 13:02:28</sys_created_on>
+            <sys_id>b42e9fc22fb15110b0a5bed72799b673</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Short Descripton</sys_name>
+            <sys_name>Short Description</sys_name>
             <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
             <sys_policy/>
             <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
-            <sys_update_name>sys_documentation_x_94128_snow_incid_test_inc_integration_u_short_descripton_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_94128_snow_incid_test_inc_integration_u_short_description_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-09 11:07:24</sys_updated_on>
+            <sys_updated_on>2022-09-09 13:02:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
