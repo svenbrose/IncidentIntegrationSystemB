@@ -26,7 +26,9 @@
 
     } else {
 
-        new TestDemoUtils().insertIncData(requestData);
+     var results = new TestDemoUtils().insertIncData(requestData);
+		
+		response.setBody(results);
 
 
     }
@@ -45,14 +47,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-09 12:17:45</sys_created_on>
         <sys_id>8492d70a2f715110b0a5bed72799b683</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>creatRecord</sys_name>
         <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
         <sys_policy/>
         <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
         <sys_update_name>sys_ws_operation_8492d70a2f715110b0a5bed72799b683</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 13:27:25</sys_updated_on>
+        <sys_updated_on>2022-09-09 21:04:52</sys_updated_on>
         <web_service_definition display_value="demo scripted">5262170a2f715110b0a5bed72799b6ce</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

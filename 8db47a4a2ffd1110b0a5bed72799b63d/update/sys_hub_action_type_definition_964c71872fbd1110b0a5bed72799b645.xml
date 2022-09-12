@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"{{step[f05ae5aa-bbce-4a8e-bfb3-6a935f3af405].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[d0539d20-1b9a-45b4-a27a-1f3ecaff962b].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d0539d20-1b9a-45b4-a27a-1f3ecaff962b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD86a506cf5fbd11102bf721dcb978c3da","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"45620ce2-d60d-454b-8c01-6e0bcfd11ae0"}}]</label_cache>
+        <master_snapshot>2e20da8b2ffd1110b0a5bed72799b60e</master_snapshot>
+        <name>Get Incidents</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 08:28:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>964c71872fbd1110b0a5bed72799b645</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Get Incidents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_964c71872fbd1110b0a5bed72799b645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 10:45:01</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=964c71872fbd1110b0a5bed72799b645"/>
+    <sys_variable_value action="delete_multiple" query="document_key=964c71872fbd1110b0a5bed72799b645"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>964c71872fbd1110b0a5bed72799b645</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>9f34ce4f2fbd1110b0a5bed72799b697</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD0f34ce4f3cbd1110502b22c6bde3a485":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0f34ce4f3cbd1110502b22c6bde3a485.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"2f125d04-be68-4332-af58-8fb84e4ec706\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0f34ce4f3cbd1110502b22c6bde3a485\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">1334ce4f2fbd1110b0a5bed72799b689</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>964c71872fbd1110b0a5bed72799b645</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>db34ce4f2fbd1110b0a5bed72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">9b34ce4f2fbd1110b0a5bed72799b68e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=964c71872fbd1110b0a5bed72799b645"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer</field>
+        <id>964c71872fbd1110b0a5bed72799b645</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>dea546cf2fbd1110b0a5bed72799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</table>
+        <value>{{step[d0539d20-1b9a-45b4-a27a-1f3ecaff962b].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>964c71872fbd1110b0a5bed72799b645</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>5b34ce4f2fbd1110b0a5bed72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>964c71872fbd1110b0a5bed72799b645</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>9734ce4f2fbd1110b0a5bed72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=964c71872fbd1110b0a5bed72799b645^sys_idNOT INa0e34a4f2fbd1110b0a5bed72799b6b0,caa506cf2fbd1110b0a5bed72799b6d6"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</action>
+        <cid>f05ae5aa-bbce-4a8e-bfb3-6a935f3af405</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>a0e34a4f2fbd1110b0a5bed72799b6b0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a0e34a4f2fbd1110b0a5bed72799b6b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>30e34a4f2fbd1110b0a5bed72799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>34e34a4f2fbd1110b0a5bed72799b6d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:43</sys_updated_on>
+        <value>/api/now/table/incident?sysparm_query=active=true^assignment_group=c9b47d8f2f7d1110b0a5bed72799b6e7^correlation_idISEMPTY</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>70e34a4f2fbd1110b0a5bed72799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <value>c341ce8b2fbd1110b0a5bed72799b6e8</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>7ce34a4f2fbd1110b0a5bed72799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:37</sys_created_on>
+        <sys_id>8f34ce4f2fbd1110b0a5bed72799b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:37</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>b8e34a4f2fbd1110b0a5bed72799b6d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:43</sys_updated_on>
+        <value>https://dev104457.service-now.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>bce34a4f2fbd1110b0a5bed72799b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:37</sys_created_on>
+        <sys_id>cb34ce4f2fbd1110b0a5bed72799b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:37</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>f4e34a4f2fbd1110b0a5bed72799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e34a4f2fbd1110b0a5bed72799b6b0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>f8e34a4f2fbd1110b0a5bed72799b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a0e34a4f2fbd1110b0a5bed72799b6b0^id=a0e34a4f2fbd1110b0a5bed72799b6b0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=a0e34a4f2fbd1110b0a5bed72799b6b0"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a0e34a4f2fbd1110b0a5bed72799b6b0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a0e34a4f2fbd1110b0a5bed72799b6b0^sys_idNOT IN28e34a4f2fbd1110b0a5bed72799b6cb"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=48625371-9ad6-4c12-8e93-bd939a700b3a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">a0e34a4f2fbd1110b0a5bed72799b6b0</model>
+        <model_id>a0e34a4f2fbd1110b0a5bed72799b6b0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a0e34a4f2fbd1110b0a5bed72799b6b0</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>28e34a4f2fbd1110b0a5bed72799b6cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a0e34a4f2fbd1110b0a5bed72799b6b0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a0e34a4f2fbd1110b0a5bed72799b6b0^sys_idNOT INb0e34a4f2fbd1110b0a5bed72799b6cf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a0e34a4f2fbd1110b0a5bed72799b6b0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:05</sys_created_on>
+        <sys_id>b0e34a4f2fbd1110b0a5bed72799b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</action>
+        <cid>d0539d20-1b9a-45b4-a27a-1f3ecaff962b</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>caa506cf2fbd1110b0a5bed72799b6d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=caa506cf2fbd1110b0a5bed72799b6d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>caa506cf2fbd1110b0a5bed72799b6d6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>0ea506cf2fbd1110b0a5bed72799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <value>{
+  "result": [
+    {
+      "number": "INC0000016",
+      "short_description": "Rain is leaking on main DNS Server",
+      "assignment_group": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7",
+        "value": "c9b47d8f2f7d1110b0a5bed72799b6e7"
+      },
+      "urgency": "1",
+      "caller_id": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user/f298d2d2c611227b0106c6be7f154bc8",
+        "value": "f298d2d2c611227b0106c6be7f154bc8"
+      },
+      "impact": "1",
+      "correlation_id": "",
+      "work_notes_list": "",
+      "state": "2",
+      "work_notes": ""
+    },
+    {
+      "number": "INC0000037",
+      "short_description": "Request for a new service",
+      "assignment_group": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7",
+        "value": "c9b47d8f2f7d1110b0a5bed72799b6e7"
+      },
+      "urgency": "3",
+      "caller_id": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user/46d85d4aa9fe198101e36eb956587fe7",
+        "value": "46d85d4aa9fe198101e36eb956587fe7"
+      },
+      "impact": "1",
+      "correlation_id": "",
+      "work_notes_list": "",
+      "state": "2",
+      "work_notes": ""
+    },
+    {
+      "number": "INC0000047",
+      "short_description": "Issue with email",
+      "assignment_group": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7",
+        "value": "c9b47d8f2f7d1110b0a5bed72799b6e7"
+      },
+      "urgency": "2",
+      "caller_id": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user/681ccaf9c0a8016400b98a06818d57c7",
+        "value": "681ccaf9c0a8016400b98a06818d57c7"
+      },
+      "impact": "2",
+      "correlation_id": "",
+      "work_notes_list": "",
+      "state": "2",
+      "work_notes": ""
+    }
+  ]
+}
+</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>caa506cf2fbd1110b0a5bed72799b6d6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>4aa506cf2fbd1110b0a5bed72799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"result","children":[{"name":"result_object","children":[{"name":"number","children":[],"type":"string","jpath":"$.result[*].number","previewValue":"INC0000016"},{"name":"short_description","children":[],"type":"string","jpath":"$.result[*].short_description","previewValue":"Rain is leaking on main DNS Server"},{"name":"assignment_group","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].assignment_group.link","previewValue":"https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].assignment_group.value","previewValue":"c9b47d8f2f7d1110b0a5bed72799b6e7"}],"type":"object","jpath":"$.result[*].assignment_group","previewValue":""},{"name":"urgency","children":[],"type":"string","jpath":"$.result[*].urgency","previewValue":"1"},{"name":"caller_id","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].caller_id.link","previewValue":"https://dev104457.service-now.com/api/now/table/sys_user/f298d2d2c611227b0106c6be7f154bc8"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].caller_id.value","previewValue":"f298d2d2c611227b0106c6be7f154bc8"}],"type":"object","jpath":"$.result[*].caller_id","previewValue":""},{"name":"impact","children":[],"type":"string","jpath":"$.result[*].impact","previewValue":"1"},{"name":"correlation_id","children":[],"type":"string","jpath":"$.result[*].correlation_id","previewValue":""},{"name":"work_notes_list","children":[],"type":"string","jpath":"$.result[*].work_notes_list","previewValue":""},{"name":"state","children":[],"type":"string","jpath":"$.result[*].state","previewValue":"2"},{"name":"work_notes","children":[],"type":"string","jpath":"$.result[*].work_notes","previewValue":""}],"type":"object","jpath":"$.result[*]","previewValue":""}],"type":"array.object","jpath":"$.result[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_caa506cf2fbd1110b0a5bed72799b6d6^id=caa506cf2fbd1110b0a5bed72799b6d6"/>
+    <sys_element_mapping action="delete_multiple" query="id=caa506cf2fbd1110b0a5bed72799b6d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>caa506cf2fbd1110b0a5bed72799b6d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>c6a506cf2fbd1110b0a5bed72799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>caa506cf2fbd1110b0a5bed72799b6d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>42a506cf2fbd1110b0a5bed72799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[f05ae5aa-bbce-4a8e-bfb3-6a935f3af405].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>caa506cf2fbd1110b0a5bed72799b6d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>06a506cf2fbd1110b0a5bed72799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=caa506cf2fbd1110b0a5bed72799b6d6"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=caa506cf2fbd1110b0a5bed72799b6d6^sys_idNOT IN4aa506cf2fbd1110b0a5bed72799b6f5"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDda209a8b25fd1110b13357b001c4c1be,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c33e9994-c9e8-42bb-a9bb-271f9e22d560</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">caa506cf2fbd1110b0a5bed72799b6d6</model>
+        <model_id>caa506cf2fbd1110b0a5bed72799b6d6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_caa506cf2fbd1110b0a5bed72799b6d6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>4aa506cf2fbd1110b0a5bed72799b6f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=caa506cf2fbd1110b0a5bed72799b6d6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_caa506cf2fbd1110b0a5bed72799b6d6^sys_idNOT IN46a506cf2fbd1110b0a5bed72799b6f9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_caa506cf2fbd1110b0a5bed72799b6d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>46a506cf2fbd1110b0a5bed72799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=964c71872fbd1110b0a5bed72799b645"/>
+    <sys_hub_action_output action="delete_multiple" query="model=964c71872fbd1110b0a5bed72799b645^sys_idNOT IN1334ce4f2fbd1110b0a5bed72799b689,9b34ce4f2fbd1110b0a5bed72799b68e,d6a546cf2fbd1110b0a5bed72799b606"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD0f34ce4f3cbd1110502b22c6bde3a485,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2f125d04-be68-4332-af58-8fb84e4ec706</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</model>
+        <model_id>964c71872fbd1110b0a5bed72799b645</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>1334ce4f2fbd1110b0a5bed72799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1334ce4f2fbd1110b0a5bed72799b689"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1334ce4f2fbd1110b0a5bed72799b689"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d57f3927-f4d5-4c48-b849-3a55f0f357c3,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</model>
+        <model_id>964c71872fbd1110b0a5bed72799b645</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>9b34ce4f2fbd1110b0a5bed72799b68e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b34ce4f2fbd1110b0a5bed72799b68e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b34ce4f2fbd1110b0a5bed72799b68e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD5aa546cf87bd11104f53e2ee49b7e701,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d0539d20-1b9a-45b4-a27a-1f3ecaff962b,sourceType=step,sourceUiUniqueId=45620ce2-d60d-454b-8c01-6e0bcfd11ae0,uiType=object,uiTypeLabel=Object,uiUniqueId=b519aa67-b0d0-462b-8037-43c70fe45f25</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>answer</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Answer</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</model>
+        <model_id>964c71872fbd1110b0a5bed72799b645</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>d6a546cf2fbd1110b0a5bed72799b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d6a546cf2fbd1110b0a5bed72799b606"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d6a546cf2fbd1110b0a5bed72799b606"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=964c71872fbd1110b0a5bed72799b645"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=964c71872fbd1110b0a5bed72799b645^sys_idNOT INbce34a4f2fbd1110b0a5bed72799b6dd"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:02:06</sys_created_on>
+        <sys_id>bce34a4f2fbd1110b0a5bed72799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:02:06</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=bce34a4f2fbd1110b0a5bed72799b6dd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_964c71872fbd1110b0a5bed72799b645"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_964c71872fbd1110b0a5bed72799b645"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645^sys_idNOT IN1f34ce4f2fbd1110b0a5bed72799b68d,56a546cf2fbd1110b0a5bed72799b60a,5f34ce4f2fbd1110b0a5bed72799b694"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>1f34ce4f2fbd1110b0a5bed72799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>answer</element>
+        <help/>
+        <hint/>
+        <label>Answer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:09:50</sys_created_on>
+        <sys_id>56a546cf2fbd1110b0a5bed72799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:09:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:03:38</sys_created_on>
+        <sys_id>5f34ce4f2fbd1110b0a5bed72799b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:03:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_964c71872fbd1110b0a5bed72799b645"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=964c71872fbd1110b0a5bed72799b645^sys_idNOT IN9b201e8b2ffd1110b0a5bed72799b61a"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9b201e8b2ffd1110b0a5bed72799b61a","name":"plan","plan_signature":null}}</plan>
+        <snapshot>547bd2872f315110b0a5bed72799b662</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b201e8b2ffd1110b0a5bed72799b61a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 10:45:03</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"{{step[f05ae5aa-bbce-4a8e-bfb3-6a935f3af405].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[d0539d20-1b9a-45b4-a27a-1f3ecaff962b].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d0539d20-1b9a-45b4-a27a-1f3ecaff962b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD86a506cf5fbd11102bf721dcb978c3da","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"45620ce2-d60d-454b-8c01-6e0bcfd11ae0"}}]</label_cache>
+        <master>true</master>
+        <name>Get Incidents</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Incidents">964c71872fbd1110b0a5bed72799b645</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e20da8b2ffd1110b0a5bed72799b60e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 10:44:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2e20da8b2ffd1110b0a5bed72799b60e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>3220da8b2ffd1110b0a5bed72799b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD3220da8b76fd11107edbc12ebc12f15e":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD3220da8b76fd11107edbc12ebc12f15e.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"2f125d04-be68-4332-af58-8fb84e4ec706\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3220da8b76fd11107edbc12ebc12f15e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b620da8b2ffd1110b0a5bed72799b662</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>2e20da8b2ffd1110b0a5bed72799b60e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>7e20da8b2ffd1110b0a5bed72799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">ba20da8b2ffd1110b0a5bed72799b667</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer</field>
+        <id>2e20da8b2ffd1110b0a5bed72799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>7620da8b2ffd1110b0a5bed72799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</table>
+        <value>{{step[d0539d20-1b9a-45b4-a27a-1f3ecaff962b].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>2e20da8b2ffd1110b0a5bed72799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>fa20da8b2ffd1110b0a5bed72799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>2e20da8b2ffd1110b0a5bed72799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>3a20da8b2ffd1110b0a5bed72799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2e20da8b2ffd1110b0a5bed72799b60e^sys_idNOT IN2620da8b2ffd1110b0a5bed72799b650,a620da8b2ffd1110b0a5bed72799b612"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Incidents">2e20da8b2ffd1110b0a5bed72799b60e</action>
+        <cid>d0539d20-1b9a-45b4-a27a-1f3ecaff962b</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>2620da8b2ffd1110b0a5bed72799b650</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2620da8b2ffd1110b0a5bed72799b650"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2620da8b2ffd1110b0a5bed72799b650</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>a220da8b2ffd1110b0a5bed72799b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>{
+  "result": [
+    {
+      "number": "INC0000016",
+      "short_description": "Rain is leaking on main DNS Server",
+      "assignment_group": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7",
+        "value": "c9b47d8f2f7d1110b0a5bed72799b6e7"
+      },
+      "urgency": "1",
+      "caller_id": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user/f298d2d2c611227b0106c6be7f154bc8",
+        "value": "f298d2d2c611227b0106c6be7f154bc8"
+      },
+      "impact": "1",
+      "correlation_id": "",
+      "work_notes_list": "",
+      "state": "2",
+      "work_notes": ""
+    },
+    {
+      "number": "INC0000037",
+      "short_description": "Request for a new service",
+      "assignment_group": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7",
+        "value": "c9b47d8f2f7d1110b0a5bed72799b6e7"
+      },
+      "urgency": "3",
+      "caller_id": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user/46d85d4aa9fe198101e36eb956587fe7",
+        "value": "46d85d4aa9fe198101e36eb956587fe7"
+      },
+      "impact": "1",
+      "correlation_id": "",
+      "work_notes_list": "",
+      "state": "2",
+      "work_notes": ""
+    },
+    {
+      "number": "INC0000047",
+      "short_description": "Issue with email",
+      "assignment_group": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7",
+        "value": "c9b47d8f2f7d1110b0a5bed72799b6e7"
+      },
+      "urgency": "2",
+      "caller_id": {
+        "link": "https://dev104457.service-now.com/api/now/table/sys_user/681ccaf9c0a8016400b98a06818d57c7",
+        "value": "681ccaf9c0a8016400b98a06818d57c7"
+      },
+      "impact": "2",
+      "correlation_id": "",
+      "work_notes_list": "",
+      "state": "2",
+      "work_notes": ""
+    }
+  ]
+}
+</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2620da8b2ffd1110b0a5bed72799b650</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>ee20da8b2ffd1110b0a5bed72799b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"result","children":[{"name":"result_object","children":[{"name":"number","children":[],"type":"string","jpath":"$.result[*].number","previewValue":"INC0000016"},{"name":"short_description","children":[],"type":"string","jpath":"$.result[*].short_description","previewValue":"Rain is leaking on main DNS Server"},{"name":"assignment_group","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].assignment_group.link","previewValue":"https://dev104457.service-now.com/api/now/table/sys_user_group/c9b47d8f2f7d1110b0a5bed72799b6e7"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].assignment_group.value","previewValue":"c9b47d8f2f7d1110b0a5bed72799b6e7"}],"type":"object","jpath":"$.result[*].assignment_group","previewValue":""},{"name":"urgency","children":[],"type":"string","jpath":"$.result[*].urgency","previewValue":"1"},{"name":"caller_id","children":[{"name":"link","children":[],"type":"string","jpath":"$.result[*].caller_id.link","previewValue":"https://dev104457.service-now.com/api/now/table/sys_user/f298d2d2c611227b0106c6be7f154bc8"},{"name":"value","children":[],"type":"string","jpath":"$.result[*].caller_id.value","previewValue":"f298d2d2c611227b0106c6be7f154bc8"}],"type":"object","jpath":"$.result[*].caller_id","previewValue":""},{"name":"impact","children":[],"type":"string","jpath":"$.result[*].impact","previewValue":"1"},{"name":"correlation_id","children":[],"type":"string","jpath":"$.result[*].correlation_id","previewValue":""},{"name":"work_notes_list","children":[],"type":"string","jpath":"$.result[*].work_notes_list","previewValue":""},{"name":"state","children":[],"type":"string","jpath":"$.result[*].state","previewValue":"2"},{"name":"work_notes","children":[],"type":"string","jpath":"$.result[*].work_notes","previewValue":""}],"type":"object","jpath":"$.result[*]","previewValue":""}],"type":"array.object","jpath":"$.result[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2620da8b2ffd1110b0a5bed72799b650^id=2620da8b2ffd1110b0a5bed72799b650"/>
+    <sys_element_mapping action="delete_multiple" query="id=2620da8b2ffd1110b0a5bed72799b650"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>2620da8b2ffd1110b0a5bed72799b650</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>6e20da8b2ffd1110b0a5bed72799b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>2620da8b2ffd1110b0a5bed72799b650</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>e620da8b2ffd1110b0a5bed72799b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[f05ae5aa-bbce-4a8e-bfb3-6a935f3af405].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>2620da8b2ffd1110b0a5bed72799b650</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>aa20da8b2ffd1110b0a5bed72799b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2620da8b2ffd1110b0a5bed72799b650"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2620da8b2ffd1110b0a5bed72799b650^sys_idNOT INe220da8b2ffd1110b0a5bed72799b655"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD6e20da8bacfd1110b1580d83f673a252,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c33e9994-c9e8-42bb-a9bb-271f9e22d560</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">2620da8b2ffd1110b0a5bed72799b650</model>
+        <model_id>2620da8b2ffd1110b0a5bed72799b650</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2620da8b2ffd1110b0a5bed72799b650</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>e220da8b2ffd1110b0a5bed72799b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2620da8b2ffd1110b0a5bed72799b650"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2620da8b2ffd1110b0a5bed72799b650^sys_idNOT IN2220da8b2ffd1110b0a5bed72799b659"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_2620da8b2ffd1110b0a5bed72799b650</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>2220da8b2ffd1110b0a5bed72799b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Incidents">2e20da8b2ffd1110b0a5bed72799b60e</action>
+        <cid>f05ae5aa-bbce-4a8e-bfb3-6a935f3af405</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:44</sys_created_on>
+        <sys_id>a620da8b2ffd1110b0a5bed72799b612</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a620da8b2ffd1110b0a5bed72799b612"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>2220da8b2ffd1110b0a5bed72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>/api/now/table/incident?sysparm_query=active=true^assignment_group=c9b47d8f2f7d1110b0a5bed72799b6e7^correlation_idISEMPTY</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>2e20da8b2ffd1110b0a5bed72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>6a20da8b2ffd1110b0a5bed72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>https://dev104457.service-now.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>6e20da8b2ffd1110b0a5bed72799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>c341ce8b2fbd1110b0a5bed72799b6e8</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>a220da8b2ffd1110b0a5bed72799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>a620da8b2ffd1110b0a5bed72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>aa20da8b2ffd1110b0a5bed72799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>e220da8b2ffd1110b0a5bed72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>e620da8b2ffd1110b0a5bed72799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a620da8b2ffd1110b0a5bed72799b612</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>ee20da8b2ffd1110b0a5bed72799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a620da8b2ffd1110b0a5bed72799b612^id=a620da8b2ffd1110b0a5bed72799b612"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=a620da8b2ffd1110b0a5bed72799b612"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a620da8b2ffd1110b0a5bed72799b612"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a620da8b2ffd1110b0a5bed72799b612^sys_idNOT IN2e20da8b2ffd1110b0a5bed72799b625"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=48625371-9ad6-4c12-8e93-bd939a700b3a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">a620da8b2ffd1110b0a5bed72799b612</model>
+        <model_id>a620da8b2ffd1110b0a5bed72799b612</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a620da8b2ffd1110b0a5bed72799b612</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:44</sys_created_on>
+        <sys_id>2e20da8b2ffd1110b0a5bed72799b625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a620da8b2ffd1110b0a5bed72799b612"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a620da8b2ffd1110b0a5bed72799b612^sys_idNOT IN6a20da8b2ffd1110b0a5bed72799b629"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a620da8b2ffd1110b0a5bed72799b612</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:44</sys_created_on>
+        <sys_id>6a20da8b2ffd1110b0a5bed72799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_hub_action_output action="delete_multiple" query="model=2e20da8b2ffd1110b0a5bed72799b60e^sys_idNOT IN3a20da8b2ffd1110b0a5bed72799b66e,b620da8b2ffd1110b0a5bed72799b662,ba20da8b2ffd1110b0a5bed72799b667"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7220da8b3bfd11107deb129239509160,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d0539d20-1b9a-45b4-a27a-1f3ecaff962b,sourceType=step,sourceUiUniqueId=45620ce2-d60d-454b-8c01-6e0bcfd11ae0,uiType=object,uiTypeLabel=Object,uiUniqueId=b519aa67-b0d0-462b-8037-43c70fe45f25</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>answer</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Answer</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Incidents">2e20da8b2ffd1110b0a5bed72799b60e</model>
+        <model_id>2e20da8b2ffd1110b0a5bed72799b60e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>3a20da8b2ffd1110b0a5bed72799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a20da8b2ffd1110b0a5bed72799b66e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3a20da8b2ffd1110b0a5bed72799b66e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD3220da8b76fd11107edbc12ebc12f15e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2f125d04-be68-4332-af58-8fb84e4ec706</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Incidents">2e20da8b2ffd1110b0a5bed72799b60e</model>
+        <model_id>2e20da8b2ffd1110b0a5bed72799b60e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>b620da8b2ffd1110b0a5bed72799b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b620da8b2ffd1110b0a5bed72799b662"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b620da8b2ffd1110b0a5bed72799b662"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d57f3927-f4d5-4c48-b849-3a55f0f357c3,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Incidents">2e20da8b2ffd1110b0a5bed72799b60e</model>
+        <model_id>2e20da8b2ffd1110b0a5bed72799b60e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>ba20da8b2ffd1110b0a5bed72799b667</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba20da8b2ffd1110b0a5bed72799b667"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba20da8b2ffd1110b0a5bed72799b667"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2e20da8b2ffd1110b0a5bed72799b60e^sys_idNOT IN7220da8b2ffd1110b0a5bed72799b678"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Incidents">2e20da8b2ffd1110b0a5bed72799b60e</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>7220da8b2ffd1110b0a5bed72799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=7220da8b2ffd1110b0a5bed72799b678"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e^sys_idNOT IN7a20da8b2ffd1110b0a5bed72799b66d,b620da8b2ffd1110b0a5bed72799b672,fa20da8b2ffd1110b0a5bed72799b666"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>7a20da8b2ffd1110b0a5bed72799b66d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>answer</element>
+        <help/>
+        <hint/>
+        <label>Answer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>b620da8b2ffd1110b0a5bed72799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-12 09:55:45</sys_created_on>
+        <sys_id>fa20da8b2ffd1110b0a5bed72799b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNOW Incident Interface " source="x_94128_snow_incid">8db47a4a2ffd1110b0a5bed72799b63d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Incident Interface ">8db47a4a2ffd1110b0a5bed72799b63d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 09:55:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2e20da8b2ffd1110b0a5bed72799b60e"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>964c71872fbd1110b0a5bed72799b645</sys_id>
+        <latest_snapshot>2e20da8b2ffd1110b0a5bed72799b60e</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

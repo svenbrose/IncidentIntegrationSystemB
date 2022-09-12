@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Test Inc Integration" max_length="40" name="x_94128_snow_incid_test_inc_integration" sizeclass="1" type="collection">
+    <element extends="sys_import_set_row" label="Test Inc Integration" max_length="40" name="x_94128_snow_incid_test_inc_integration" sizeclass="87" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_caller" label="Caller" max_length="40" name="u_caller" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_configuration_item" label="Configuration Item" max_length="40" name="u_configuration_item" type="string"/>
         <element label="Correlation ID" max_length="40" name="u_correlation_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_description" label="Description" max_length="400" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_impact" label="Impact" max_length="40" name="u_impact" type="string"/>
+        <element label="Number" max_length="40" name="u_number" type="string"/>
         <element label="Short Description" max_length="200" name="u_short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_state" label="State" max_length="40" name="u_state" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_urgency" label="Urgency" max_length="40" name="u_urgency" type="string"/>
